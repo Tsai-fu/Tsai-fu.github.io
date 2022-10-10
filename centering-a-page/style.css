@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: rgb(181, 119, 188);
+}
+
+main,
+header,
+footer {
+    background: rgb(239, 232, 240);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+main {
+    border: 5px dotted goldenrod;
+    height: 80vh;
+    text-align: left;
+}
+
+.column-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.column-flex section {
+    flex: 0;
+}
+
+.column-1 {
+    /* border: 5px solid black; */
+    align-items: center;
+}
+
+.column-2 {
+    /* position: absolute; */
+    /* padding: 50px; */
+    /* width: 300px; */
+    /* border: 5px solid black; */
+}
+
+.column-2 p {
+    width: 300px;
+}
+
+
+.test-img {
+    /* position: absolute; */
+    /* top: -60px;
+    left: -60px; */
+    /* z-index: -1; */
+}

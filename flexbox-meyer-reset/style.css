@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background: rgb(181, 119, 188);
+    /* padding: 20px; */
+}
+
+main {
+    background: rgb(239, 232, 240);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+header {
+    background: rgb(83, 55, 87);
+    color: rgb(239, 232, 240);
+    border-radius: 0px 0px 5px 05px;
+    /* height: 60px; */
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    /* margin-top: 10px; */
+}
+
+footer {
+    background: rgb(83, 55, 87);
+    color: rgb(239, 232, 240);
+    border-radius: 5px 5px 0px 0px;
+    height: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+}
+
+main {
+    border: 5px dotted goldenrod;
+    height: auto;
+    text-align: left;
+}
+
+.gallery {
+    display: flex;
+    /* align-items: center; */
+    align-content: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+
+.gallery div {
+    flex: 30%;
+    width: 300px;
+    padding: 5px;
+}
+
+
+img {
+    width: 100%;
+    border: 3px solid goldenrod;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.column-1 p {
+    /* width: 320px; */
+    min-width: 300px;
+    /* word-wrap: break-word; */
+    /* width: fit-content; */
+}
