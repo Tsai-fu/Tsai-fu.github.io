@@ -16,3 +16,8 @@ body {
     border-radius: 40px;
     text-decoration: none;
 }
+
+.button:hover {
+    background: rgb(98, 188, 200);
+    color: white;
+}
