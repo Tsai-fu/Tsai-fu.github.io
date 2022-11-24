@@ -1,25 +1,53 @@
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    color: rgb(110, 204, 219);
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20;
+    font-weight: 200;
+    color: #ed6a3a;
 }
 
 body {
     margin: 0;
-    padding: 10%;
+    padding: 5% 10%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 .button {
-    background: rgb(121, 234, 249);
+    background: rgb(152, 232, 243);
     color: black;
     transition: 500ms;
-    padding: 15px;
+    padding: 15px 20px;
     border-radius: 40px;
     text-decoration: none;
 }
 
 .button:hover {
-    background: rgb(98, 188, 200);
+    background: #ed6a3a;
     color: white;
+}
+
+.home main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 78%;
+    margin: auto;
+}
+
+.home main div {
+    flex: 1;
+    /* border: 2px solid brown; */
+}
+
+.left,
+.right {
+    /* border: 2px solid brown; */
+    margin-top: 50px;
 }
