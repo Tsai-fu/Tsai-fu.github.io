@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    padding: 5% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -10,13 +17,6 @@ h2 {
     font-size: 20;
     font-weight: 200;
     color: #ed6a3a;
-}
-
-body {
-    margin: 0;
-    padding: 5% 10%;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
 
 .button {
@@ -49,5 +49,5 @@ body {
 .left,
 .right {
     /* border: 2px solid brown; */
-    margin-top: 50px;
+    margin-top: 30px;
 }
